@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
+body {		
+	font-family:Lato;
+}
+.overflow {
+	background-color:#e6db74 ;
+	color:#000;
+	width: 300px;
+	height:50px;
+	font-size:20px;
+	border: 3px solid #bfe6fc;
+	border-radius: 10px;
+	margin: 0 0 16px 0;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.overflow__clip:hover,
+.overflow__ellipsis:hover {
+    overflow: visible;
+}
+
+.overflow__clip {
+	text-overflow: clip;
+}
+.overflow__ellipsis--hidden {
+	text-overflow: ellipsis;
+}
+.overflow__clip--scroll {
+	overflow: scroll;
+}
+.overflow--none {
+	white-space: normal;
+	text-overflow: ellipsis;
+}
+h1 {
+	font-size: 56px;
+	color:#000;
+	text-shadow:  0 0 55px;	
+	text-align:center;
+}
+h2 {
+	font-size: 36px;
+	color:#000;
+	text-shadow:  0 0 15px;
+}
